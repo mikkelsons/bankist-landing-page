@@ -264,15 +264,9 @@ slider();
 //////////////////////////////
 
 // Selecting elements
-console.log(document.documentElement);
-console.log(document.head);
-console.log(document.body);
 
 document.getElementById("section--1");
 const allButtons = document.getElementsByTagName("button"); // returns HTML collection, which updates automatically (delete a section in developer tools, and the element is removed from list)
-console.log(allButtons);
-
-console.log(document.getElementsByClassName("btn")); // returns HTML collection
 
 // Creating and inserting elements
 
